@@ -18,7 +18,13 @@ Este token tendrá que ser enviado dentro de los headers en todas las peticiones
 
 Por ejemplo:
 
-API-Token: 5XXX738A83B40XXXX44D46E0032EXXXX
+```json
+
+curl -X GET \
+  http://dev.api.simbel.com.ar/v1/products \
+  -H 'cache-control: no-cache' \
+  -H 'x-api-key: 5XXX738A83B40XXXX44D46E0032EXXXX'
+```
 
 La URL base de pruebas a utilizar es la siguiente:
 
@@ -65,6 +71,10 @@ Devuelve un listado de todos los productos, limitado a 10 productos por página.
 | **Campo** | **Tipo** | **Descripción** |
 | --- | --- | --- |
 | search | String | Permite hacer búsquedas. Por ejemplo: &#39;silla&#39; |
+| categoryId | Integer | Filtra por la categoría del producto. |
+| brandId | Integer | Devuelve sólo los produtos de cierta marca. |
+| orderBy | String | Ordena los resultados. Los valores posibles son: price, name. |
+| orderDirection | String | El sentido de ordenamiento. Los valores posibles son: desc, asc. |
 | page | Integer | La página actual. Por defecto es 1. |
 | limit | Integer | El límite de productos por página. Por defecto es 10. |
 
