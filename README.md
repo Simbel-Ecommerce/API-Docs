@@ -30,8 +30,7 @@ La URL base de pruebas a utilizar es la siguiente:
 El formato de respuestas utilizado es JSON y tiene los siguientes campos:
 
 
-```
-#!json
+```json
 
 {
     "success": true,
@@ -72,8 +71,7 @@ Devuelve un listado de todos los productos, limitado a 10 productos por página.
 Ejemplo:
 
 
-```
-#!json
+```json
 
 {
     "success": true,
@@ -152,8 +150,7 @@ Parámetros:
 Ejemplo:
 
 
-```
-#!json
+```json
 
 
 {
@@ -225,8 +222,7 @@ Parámetros:
 Ejemplo:
 
 
-```
-#!json
+```json
 
 
 {
@@ -307,8 +303,7 @@ Parámetros:
 Ejemplo:
 
 
-```
-#!json
+```json
 
 {
     "success": true,
@@ -351,8 +346,7 @@ Devuelve un objeto JSON conteniendo información de la tienda.
 Ejemplo:
 
 
-```
-#!json
+```json
 
 {
     "success": true,
