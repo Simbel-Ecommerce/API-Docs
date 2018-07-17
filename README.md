@@ -109,11 +109,44 @@ Ejemplo:
                 "name": "Marca"
             },
             "active": true,
-            "attributes": [
+            "variants": [
                 {
-                    "id": 22,
-                    "name": "Color",
-                    "value": "Verde"
+                    "id": 422,
+                    "product_id": 422,
+                    "name": "Banco Florida de 2 Cuerpos de Plástico Blanco",
+                    "price": 5161,
+                    "values": [
+                        [
+                            {
+                                "id": 22,
+                                "name": "Color",
+                                "value": "Blanco"
+                            }
+                        ]
+                    ],
+                    "stock": 200,
+                    "sku": "F780000",
+                    "created_at": "2018-07-17 11:34:52",
+                    "updated_at": "2018-07-17 11:34:52"
+                },
+                {
+                    "id": 445,
+                    "product_id": 422,
+                    "name": "Banco Florida de 2 Cuerpos de Plástico Negro",
+                    "price": 5161,
+                    "stock": 250,
+                    "sku": "F780001",
+                    "values": [
+                        [
+                            {
+                                "id": 30,
+                                "name": "Color",
+                                "value": "Negro"
+                            }
+                        ]
+                    ],
+                    "created_at": "2018-07-17 11:34:52",
+                    "updated_at": "2018-07-17 11:34:52"
                 }
             ],
             "tags": [
